@@ -10,6 +10,9 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/pimentel124',
 			},
+			editLink: {
+				baseUrl: 'https://github.com/pimentel124/UniDocs/tree/dev/',
+			},
 			customCss: [
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
