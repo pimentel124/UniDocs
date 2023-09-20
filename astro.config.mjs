@@ -14,6 +14,10 @@ export default defineConfig({
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
 			],
+			logo: {
+				src: './src/assets/UniDocsLogo_noBG.webp',
+			},
+			favicon: '/favicon.svg',
 			sidebar: [
 				{
 					label: 'Guides',
