@@ -151,7 +151,7 @@ Breadth-first search on a simple binary tree. At each stage, the node to be expa
 Depth-first search on a simple binary tree. At each stage, the node to be expanded next is the deepest node indicated by the triangular marker.
 <br>
 
-![Depth-first](/img/Depth-first.png)  
+![Depth-first](/img/Depth-first.png)
 
 ### **Depth-limited search**
 
@@ -265,4 +265,4 @@ improve efficiency
 
 <br>
 
-![Ex-1](img/Ex-1.png)  
+![Ex-1](/img/Ex-1.png)  
