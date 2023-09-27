@@ -30,3 +30,14 @@
 	--sl-color-black: #ffffff;
 }
 
+.math-inline svg {
+    display: inline !important;
+}
+mjx-container/svg{
+	display: inline !important;
+}
+
+.content:where(.astro-ml6ntd6l) :not(a,strong,em,del,span,input) + :not(a,strong,em,del,span,input,:where(.not-content *)) {
+    margin-top: 0.2rem;
+}
+
