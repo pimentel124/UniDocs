@@ -30,6 +30,35 @@
 	--sl-color-black: #ffffff;
 }
 
+
+h2{
+	margin-top: 1.2rem !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: var(--sl-color-gray-5);
+	border-radius: 4px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: var(--sl-color-gray-4);
+	border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: var(--sl-color-gray-3);
+  
+  }
+
+
 .math-inline svg {
     display: inline !important;
 }
