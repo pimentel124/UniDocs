@@ -30,9 +30,25 @@
 	--sl-color-black: #ffffff;
 }
 
+/* Title */
+.astro-nyfq2let{
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+
+}
+
+h1{
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+}
 
 h2{
 	margin-top: 1.2rem !important;
+}
+
+h5{
+	margin-top: 1.2rem !important;
+	margin-bottom: 1.2rem !important;
 }
 
 /* width */
