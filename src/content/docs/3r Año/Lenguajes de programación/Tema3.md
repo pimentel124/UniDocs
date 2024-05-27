@@ -42,6 +42,8 @@ description: Ejercicios Tema 3 Lenguajes de Programación
 #### Definir les funcions màxim i mínim d’una llista de números
 
 ```lisp
+
+
 (defun max (l)
     (cond ((null (cdr l)) (car l))
         (t (max (list (max (car l) (cadr l)) (cddr l))))))

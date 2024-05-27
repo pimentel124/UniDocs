@@ -3,6 +3,18 @@ title: Teoria
 description: Teoria Lenguajes de Programación
 ---
 
+# Tema 1 - Introducción a los lenguajes de programación 
+
+### Llenguajes interpretados
+• Comprobación de sintaxis y ejecución del código línea a línea.
+• Tiempo de ejecución mayor.
+• Más rápido tener un programa "listo" para ejecutar.
+
+
+### Llenguajes compilados
+• Tiempo de copilación + tiempo de enlazado.
+• Tiempo de ejecución menor.
+
 # Tema 2 - Visión general de los diferentes tipos de lenguajes de programación
 
 ## Classificación de los llengujes de programación
@@ -68,7 +80,8 @@ Dota a la frase de una estructura que ayuda a enconctrar su significado.
 Definición formal de la sintaxis de un lenguaje de programación. Es decir, es un conjunto de reclas y producciones que especifican las secuencias permitidas de elementos léxicos.
 
 Gramáticas libre de contexto: Un lenguaje es libre de contexto sí y solo si se puede definir mediante un conjunto de producciones que son libres de contexto.  
-Un conjunto de producciones son libres de contexto si todos sus miembros son de la forma: $A :== \xi \quad (A \in N, \xi \in (N\ U\ T)^*)$
+Un conjunto de producciones son libres de contexto si todos sus miembros son de la forma:  
+$A :== \xi \quad (A \in N, \xi \in (N\ U\ T)^*)$
 
 ## Semántica
 
@@ -228,7 +241,7 @@ gestión del _top_:
 - Bloque de memoria en el que se reservan y liberan trozos de forma relativamente desestructurada.
 - Diversas formas de reservar, recuperar, compactar y reutilizar.
 
-#### Tipos de gestión del _heap_
+### Tipos de gestión del _heap_
 
 #### Con todos los elementos de diversos tamaños
 
@@ -257,7 +270,7 @@ gestión del _top_:
           1. Se puede acceder desde fuera del _heap_ a cualquier elemento activo.
           2. Se puede identificar a cualquier apuntador desde fuera
           3. Se pueden identificar los campos que contienen apuntadores a otros elementos
-      - Recoleción de los elemenos no activos: recorrido secuencial de los elementos marcados como no activos
+      - Recolección de los elemenos no activos: recorrido secuencial de los elementos marcados como no activos
 
 ___
 [Download this file as PDF](/Files/PDF/Teoria.pdf)  
