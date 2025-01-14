@@ -48,6 +48,12 @@ We've covered serveral data mining techniques in this course. for each of the ch
 
 ##### a) (1.0 POINTS) Multilinear Regression
 
+This statistical technique models relationships between multiple independent variables and one dependent variable. Think of it as drawing a best-fit line through data points in multiple dimensions. It works wonderfully for problems with clear linear relationships, like predicting house prices based on features such as size, location, and number of rooms. However, it struggles when relationships aren't linear or when predictor variables are closely related to each other. It's also quite sensitive to outliers, which can throw off the entire model.
+
 ##### b) (1.0 POINTS) Decision Trees
 
+Decision trees create a flowchart-like structure that makes predictions by following a series of yes/no questions about the data. Imagine playing a game of "20 Questions" – each question narrows down the possibilities until you reach a final answer. They're particularly valuable when you need to explain how a decision was made, making them perfect for applications like medical diagnosis or loan approval systems. Their main weakness is that they can become too specific to the training data (overfitting) and might create overly complex rules that don't generalize well to new situations.
+
 ##### c) (1.0 POINTS) Bayesian classifier
+
+This technique uses probability theory to make predictions, specifically Bayes' theorem, which updates probabilities as new evidence comes in. It's similar to how a doctor might update their diagnosis as they gather more symptoms and test results. Bayesian classifiers excel at tasks like spam detection or document categorization, where they can learn from patterns in the data. Their primary limitation is that they assume all features are independent of each other – like assuming that the presence of one word in an email has no relationship to the presence of other words, which isn't always true in reality.
