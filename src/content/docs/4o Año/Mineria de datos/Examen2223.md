@@ -101,7 +101,7 @@ Análisis: La variable objetivo en este caso es el cambio porcentual del dólar,
 
 Tipo de Problema: Este es un problema de regresión, ya que se busca predecir un valor numérico continuo. Se pueden utilizar modelos de regresión lineal o de series de tiempo para modelar la relación entre las variables de entrada y el cambio porcentual del dólar. En series de tiempo, se utilizan datos pasados para pronosticar valores futuros.
 
-## QUESTION 3
+## Question 3
 
 Consider the following dataset. Each data instance corresponds to a patient. The attributes are:
 
